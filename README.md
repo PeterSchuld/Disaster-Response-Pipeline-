@@ -4,13 +4,33 @@
 This project is part of the Udacity Data Science Nanodegree program
 
 
-Figure Eight, a company focused on creating datasets for AI applications, has crowdsourced the tagging and translation of messages to improve disaster relief efforts. In this project, we will build a data pipeline to prepare message data from major natural disasters around the world. We will build a machine learning pipeline to categorize emergency messages based on the needs communicated by the sender.
+Figure Eight, a company focused on creating datasets for AI applications, has crowdsourced the tagging and translation of messages to improve disaster relief efforts. In this project, we build a data pipeline to prepare message data from major natural disasters around the world. We build a machine learning pipeline to categorize emergency messages based on the needs communicated by the sender.
 
-The project provides a web app where you can input a text message and receive a classification in different emergency categories.  During natural disasters, a large number of emergency messages reach emergency services via social media or direct contact. Categorizing those messages via AI helps disaster response organizations to filter for the most relevant information and to allocate the messages to the relevant rescue teams. 
+The project provides a web app where you can input a text emergency message and receive a classification in different emergency categories.  During natural disasters, a large number of emergency messages reach emergency services via social media or direct contact. Categorizing those messages via AI helps disaster response organizations to filter for the most relevant information and to allocate the messages to the relevant rescue teams.
 
+
+
+### Project Descriptions
+The project consists of three parts and the datasets:
+
+***ETL Pipeline:*** `process_data.py` file with python code to create an ETL pipeline.
+    
+Build an ETL pipeline (Extract, Transform, Load) to retrieve emergency text messages and their classification from a given dataset. Clean the data and store it in an SQLite database.
+
+***ML Pipeline:*** `train_classifier.py` file contains the python code to create an ML pipeline.
+
+Divide the data set into a training and test set. Create a sklearn machine learning pipeline using NLTK (Natural Language Toolkit) using Hyperparameter optimization via Grid Search.  The ml model uses the AdaBoost algorithm (formulated by Yoav Freund and Robert Schapire) to predict the classification of text messages (multi-output classification).  
+
+***Web App:***  
+A web application enables the user to enter an emergency message, and then view the categories of the message in real time.
+
+
+***Data***
+The ml model trains on a dataset provided by Figure Eight that consists of 30,000 real-life emergency messages. The messages are classified into 36 labels.
 
 ### Installation:
-You need python3 and the following libraries installed to run the project: 
+You need python3 and the following libraries installed to run the project:
+
    
     - pandas
     - re
