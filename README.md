@@ -64,4 +64,5 @@ You need python3 and the following libraries installed to run the project:
 
 ![grafik](https://user-images.githubusercontent.com/59873708/116595838-45799200-a913-11eb-9610-0aeff785e149.png)
 
+![grafik](https://user-images.githubusercontent.com/59873708/116723934-8cc55880-a9cf-11eb-92a6-cd9673f96261.png)
 
