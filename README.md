@@ -58,6 +58,11 @@ You need python3 and the following libraries installed to run the project:
 
 3. Go to http://0.0.0.0:3001/
 
+
+### Licensing, Authors, and Acknowledgements
+
+Thanks to Udacity for the starter code and FigureEight for providing the data set of 30,000 labelled emergency messages to be used in this project.
+
 ### Screenshots Web App
 
 ![grafik](https://user-images.githubusercontent.com/59873708/116595766-2da20e00-a913-11eb-987e-19daadda147a.png)
